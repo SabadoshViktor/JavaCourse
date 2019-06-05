@@ -1,0 +1,55 @@
+
+body{
+        font-family: Calibri;
+        font-family: Calibri;
+        background-color: snow;
+   /* margin-right: 15px;
+    margin-left: 15px;*/
+    /*margin: 50px 30px 100px 40px;*/
+    margin: 50px 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    padding-left: 10px;
+    margin: 10px auto;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+iframe{
+    width: 70%;
+    height: 300px;
+}
+
+.feedback-form{
+    display: block;
+    margin: 10px;
+}
+
+.menu {
+    border: 10px solid green;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img.card-img-top{
+    max-width: 50%;
+}
+
+.h2 {
+    font-size: 50px;
+}
+
+input.input-forMe{
+
+}

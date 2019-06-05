@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Employee app</title>
+    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet"href="style.css">
+    <script src="jquery-3.4.0.min.js"></script>
+    <script src="jquery.serializeToJSON.js"></script>
+    <script src="functions.js"></script>
+    <script src="script.js"></script>
+
+
+</head>
+<body class="container">
+<h1>Employee application</h1>
+<div class="container">
+    <h2>Employee's list</h2>
+    <table class="table" id="employees">
+        <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">First name</th>
+            <th scope="col">Last name </th>
+            <th scope="col">Birth date</th>
+            <th scope="col">Position</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Worker</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>Add employee</h2>
+<form id="employee_form">
+    <div class="row">
+        <label for="id" class="col-md-2">ID</label>
+        <input  id="id" name="id" type="text" disabled class="col-md-10">
+    </div>
+    <div class="error" id="idError">
+        This field can not be empty!!!
+    </div >
+    <div class="row">
+        <label for="firstName" class="col-md-2">First name</label>
+        <input  id="firstName" name="firstName" type="text" placeholder="First name" class="col-md-10">
+    </div>
+    <div class="error" id="firstNameError">
+        This field can not be empty!!!
+    </div >
+    <div class="row">
+        <label for="lastName" class="col-md-2">Last name</label>
+        <input id="lastName" name="lastName" type="text" placeholder="Last name" class="col-md-10">
+    </div>
+    <div class="error" id="lastNameError" >
+        This field can not be empty!!!
+    </div>
+    <div class="row">
+        <label for="birthDay" class="col-md-2">Birth date</label>
+        <input id="birthDay" name="birthDate" type="date" placeholder="Date of birth" class="col-md-10">
+    </div>
+    <div class="error" id="birthDayError">
+        This field can not be empty!!!
+    </div>
+    <div class="row">
+        <label for="manager" class="col-md-2">Manager</label>
+        <input id="manager" name="manager" placeholder="Manager" type="text" class="col-md-10">
+    </div>
+    <div class="error" id="managerError">
+        This field can not be empty!!!
+    </div>
+    <div class="row">
+        <label for="lastName" class="col-md-2">Position</label>
+        <select id="position" name="position">
+            <option value="0">Please select employee position</option>
+            <option value="1">Worker</option>
+            <option value="2">Manager</option>
+            <option value="3">Coworker</option>
+        </select>
+    </div>
+    <div class="error" id="positionError">
+        This field can not be empty!!!
+    </div>
+    <div>
+
+        <input type="submit" value="Create employee">
+    </div>
+
+</form>
+</body>
+</html>
