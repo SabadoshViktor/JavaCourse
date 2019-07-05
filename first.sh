@@ -16,11 +16,19 @@ do
       sleep 0.5
 done
 echo "Privet ot Maksa"
+sleep 0.5
 echo FATAL!!!
+sleep 0.5
 echo FATAL!!!
+sleep 0.5
 echo FATAL!!!
+sleep 0.5
 echo FATAL!!!
+sleep 0.5
 echo KAPUT!!!
+sleep 0.5
 echo PIZDEC!!!
+sleep 0.5
 echo YA EBU!!!
+sleep 0.5
 echo NAH*YA???
